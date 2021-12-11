@@ -12,7 +12,8 @@ body {
     float: left;
     padding: none;
     margin: none;
-    margin-left: 10px;
+    margin-top: 5px;
+    margin-left: 15px;
     border: 2px hidden;
     font-family: Impact;
     font-size: 40px;
@@ -85,7 +86,6 @@ body {
   }
 
   .dropdown-content a {
-    float: none;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -95,11 +95,12 @@ body {
  
  .dropdown:hover .dropdown-content {
      display: table;
+      background-color: rgb(255, 255, 255);
    }
  
-   .dropdown-content a:hover {
+.dropdown-content a:hover {
        background-color: #cccccc;
-     }
+   }
  
  .dropdown-content:hover {
      background-color: rgb(255, 255, 255);
