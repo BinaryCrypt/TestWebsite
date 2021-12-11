@@ -1,0 +1,452 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../images/background.jpg);
+}
+
+/*------------------------------------Nav Bar------------------------------------*/
+
+.logo {
+    float: left;
+    padding: none;
+    margin: none;
+    margin-left: 10px;
+    border: 2px hidden;
+    font-family: Impact;
+    font-size: 40px;
+    color:rgb(0, 0, 0);
+}
+
+.top-header .logo {
+    overflow: hidden;
+}
+.menu{
+    float: right;
+    width: 100%;
+    height: 100%;
+    opacity:0.7;
+    background-image: linear-gradient(to bottom right, rgb(250, 96, 255), rgb(102, 219, 255));
+}
+     
+.menu ul{
+    text-align: center;
+    float: right;
+
+}
+     
+.menu li{
+    display: inline-block;
+}
+     
+.menu li a {
+    padding:20px;
+    text-decoration: none;
+    font-weight: 600;
+}
+     
+.menu li a{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+     
+.menu li:hover a {
+    background: rgb(255, 255, 255);
+    color: #0074D9;
+    text-decoration: none;
+}
+
+.dropdown {
+    display: inline-block;
+ }
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+}
+
+.dropbtn {
+    border: none;
+    background:none;
+    display: inline-block;
+    text-decoration:none;
+}
+
+.dropdown-content {
+    display: none;
+    position:absolute;
+    min-width: 160px;
+    padding: 2px;
+    text-decoration: none;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+ 
+ .dropdown:hover .dropdown-content {
+     display: table;
+   }
+ 
+   .dropdown-content a:hover {
+       background-color: #cccccc;
+     }
+ 
+ .dropdown-content:hover {
+     background-color: rgb(255, 255, 255);
+ }
+
+.Cnth2 {
+    color: white;
+    border-left: 7px solid violet;
+    font-weight: 600;
+    font-size: 45px;
+    margin-top: 300px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.content {
+    margin: auto;
+    background-image: url(../images/norwayimg.jpg);
+    background-size: 1800px;
+    height: 450px;
+}
+
+.content1 {
+    text-align: center;
+    border: 2px outset rgb(111, 152, 190);
+    border-left: none;
+    border-right: none;
+    height: 250px;
+    width: 100%;
+}
+
+.content1 a {
+    text-decoration: none;
+}
+
+#cnth1 {
+    border-bottom: 4px solid skyblue;
+    border-top: 4px solid skyblue;
+    width: 120px;
+    text-align: center;
+    display: inline-block;
+}
+
+.animals {
+    border: 2px solid hidden;
+    height: 150px;
+    width: 500px;
+    margin: auto;
+}
+
+.apanda {
+    border:2px solid hidden;
+    height: 140px;
+    width:100px;
+    float: left;
+    
+}
+
+.p1 {
+    font-size: 20px;
+    margin: auto;
+    text-decoration:none;
+    color: black;
+}
+
+.apolar {
+    border:2px solid hidden;
+    height: 140px;
+    width:100px;
+    margin: auto;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.p2 {
+    font-size: 20px;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+}
+
+.atiger {
+    border:2px solid hidden;
+    height: 140px;
+    width:100px;
+    margin: auto;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.p3 {
+    font-size: 20px;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+}
+
+.arhino {
+    border:2px solid hidden;
+    height: 140px;
+    width:100px;
+    margin: auto;
+    float: right;
+}
+
+.p4 {
+    font-size: 20px;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+}
+
+/*----------------------------------giant Panda---------------------------------*/
+
+.panda {
+    font-family:  Arial;
+    height: 1020px;
+    width: 900px;
+    margin: auto;
+    border:5px outset rgb(0, 169, 199) ;
+    box-shadow:15px 10px 15px #0a5979;
+    background-image: url(../images/background2.jpg);
+    background-size: 900px 1000px;
+    
+}
+
+.panda h1{
+    text-align:center ;
+}
+
+.panda p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.pandaimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:5px solid rgb(74, 69, 75);
+    box-shadow:10px 7px 9px rgb(22, 22, 24);
+    border-radius: 10%;
+}
+
+.adopt {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background:rgb(255, 123, 0);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.adopt:hover {
+    opacity: 0.8;
+}
+/*-----------------------------Polar Bear---------------------------------------*/
+
+.polarbear {
+    height: 1520px;
+    width: 900px;
+    border: 5px outset rgb(0, 169, 199);
+    margin: auto;
+    box-shadow:15px 10px 15px #0a5979;
+    background-image: url(../images/background2.jpg);
+    font-family: Arial;
+    background-size: 1500px;
+}
+
+.polarbear h1 {
+    text-align: center;
+}
+
+.polarbear p {
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.polarbearimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:5px solid rgb(74, 69, 75);
+    box-shadow:10px 7px 9px rgb(22, 22, 24);
+    border-radius: 10%;
+}
+
+.fieldset {
+    border-radius: 5%;
+    margin: 20px;
+}
+
+.list {
+    list-style-type: disc;
+}
+
+/*-----------------------------Tiger--------------------------------------------*/
+
+.tiger {
+    height: 1125px;
+    width: 900px;
+    border: 5px outset rgb(0, 169, 199);
+    margin: auto;
+    box-shadow:15px 10px 15px #0a5979;
+    background-image: url(../images/background2.jpg);
+    font-family: Arial;
+    background-size: 1500px;
+}
+
+.tiger h1 {
+    text-align: center;
+}
+
+.tiger p {
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.tigerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:5px solid rgb(74, 69, 75);
+    box-shadow:10px 7px 9px rgb(22, 22, 24);
+    border-radius: 10%;
+}
+
+/*-----------------------------Rhino--------------------------------------------*/
+
+.rhino{
+    height: 1125px;
+    width: 900px;
+    border: 5px outset rgb(0, 169, 199);
+    margin: auto;
+    box-shadow:15px 10px 15px #0a5979;
+    background-image: url(../images/background2.jpg);
+    font-family: Arial;
+    background-size: 1500px;
+}
+
+.rhino h1 {
+    text-align: center;
+}
+
+.rhino p{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.rhinoimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:5px solid rgb(74, 69, 75);
+    box-shadow:10px 7px 9px rgb(22, 22, 24);
+    border-radius: 10%;
+}
+
+
+/*-----------------------------Log-In-------------------------------------------*/
+
+.login h1{
+    text-align: center;
+}
+
+.login {
+    box-shadow: 5px 5px 10px rgb(37, 37, 37);
+    border:2px outset rgb(158, 158, 158);
+    width: 400px;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    width: 100%;
+    height: 24px;
+    border: 2px solid #121212;
+    border-radius: 8px;
+    padding: 12px 8px;
+}
+
+.loginbutton {
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background:rgb(0, 169, 199);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.loginbutton:hover {
+    opacity: 0.8;
+}
+
+/*------------------------------------Footer------------------------------------*/
+
+.footer {
+    background-image:url(../images/Footer.jpg);
+    background-size: 1500px 300px;
+    opacity: 0.9;
+    margin: auto;
+    height: 300px;
+    width: 100%;
+    border: 3px outset black;
+    border-right: black;
+    border-left: black;
+}
+
+.Slogo {
+    margin:auto;
+    height: 240px;
+    width: 350px;
+}
+
+.h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.Slogo div {
+    display: inline-block;
+}
+
+.divb {
+    margin-right: 52px;
+    margin-left:45px ;
+}
+
+.divd {
+    margin-left: 65px;
+    margin-right:70px;
+}
+
+.dive {
+    margin-top: 15px;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+}
